@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Lastbil",
+        "header": "Lastbilkørekort og kurser for lastbilchauffører",
+        "slug": "lastbil",
+        "gfx": "lastbil",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Kørekort, Kvalifikation, Gods, Tank",
+        "sorting": 4,
+        "active": 1
+    },
+    {
+        "name": "Bus",
+        "header": "Buskørekort og kurser for buschauffører",
+        "slug": "bus",
+        "gfx": "bus",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Kørekort, Kvalifikation, Rutebus, Turistbus, OST",
+        "sorting": 5,
+        "active": 1
+    },
+    {
+        "name": "EU-Efteruddannelse",
+        "header": "EU-Efteruddannelse - EU Bevis lastbil og bus",
+        "slug": "eu-efteruddannelse",
+        "gfx": "efteruddannelse",
+        "main": 1,
+        "lang": "da",
+        "teaser": "EU Bevis til Lastbil, Bus, OST/Flextrafik, Køreteknik",
+        "sorting": 3,
+        "active": 1
+    },
+    {
+        "name": "Gaffeltruck",
+        "header": null,
+        "slug": "gaffeltruck",
+        "gfx": "lager",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Gaffeltruck Certifikat, Lageruddannelse",
+        "sorting": 6,
+        "active": 1
+    },
+    {
+        "name": "Varebil",
+        "header": "Varebil kursus",
+        "slug": "varebil",
+        "gfx": "varebil",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Grund- og Efteruddannelse, Int. Varebilstilladelse",
+        "sorting": 10,
+        "active": 1
+    },
+    {
+        "name": "BAB / Flextrafik",
+        "header": "BAB / Flextrafik kursus",
+        "slug": "bab-kursus",
+        "gfx": "bab-flextrafik",
+        "main": 1,
+        "lang": "da",
+        "teaser": "BAB 1-2-3, 3A, 3B, BAB-4, Evakueringsstol",
+        "sorting": 7,
+        "active": 1
+    },
+    {
+        "name": "Taxi",
+        "header": null,
+        "slug": "taxi",
+        "gfx": "taxi",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Taxa Kørekort",
+        "sorting": 8,
+        "active": 1
+    },
+    {
+        "name": "Redning",
+        "header": "Redderuddannelse",
+        "slug": "redning",
+        "gfx": "redning",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Sygetransport, Autohjælp, Udrykningskørsel",
+        "sorting": 9,
+        "active": 1
+    },
+    {
+        "name": "ADR / Farligt Gods",
+        "header": null,
+        "slug": "adr-kursus",
+        "gfx": "adr-farligt-gods",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Grund, Kl. 1, Kl. 7, Tank, Lille-ADR, Fornyelse",
+        "sorting": 12,
+        "active": 1
+    },
+    {
+        "name": "Vogntog",
+        "header": "Vogntog - Kørekort",
+        "slug": "vogntog",
+        "gfx": "vogntog",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Vogntog Kørekort, Bus Trailer, Sættevogn",
+        "sorting": 11,
+        "active": 1
+    },
+    {
+        "name": "Vognmand / Transportleder",
+        "header": "Vognmand / Transportleder",
+        "slug": "vognmand-transportleder",
+        "gfx": "vognmand",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Gods, Bus, Varebil, Flex, Vognmands&#173;uddannelse",
+        "sorting": 13,
+        "active": 1
+    },
+    {
+        "name": "Dronecertifikat",
+        "header": null,
+        "slug": "dronecertifikat",
+        "gfx": "drone",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Dronecertifikat A1/A3, Dronecertifikat A2, Dronecertifikat A1/A2/A3",
+        "sorting": 14,
+        "active": 1
+    },
+    {
+        "name": "Kørelærer",
+        "header": null,
+        "slug": "koerelaerer",
+        "gfx": "koerelaerer",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Kørelærer&#173;uddannelse, Efteruddannelse",
+        "sorting": 15,
+        "active": 1
+    },
+    {
+        "name": "Andre kurser",
+        "header": null,
+        "slug": "andre-kurser",
+        "gfx": "andre-kurser",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Køreteknik, Trailerkørekort m.fl.",
+        "sorting": 16,
+        "active": 1
+    },
+    {
+        "name": "Ledelse",
+        "header": "Ledelse",
+        "slug": "ledelse",
+        "gfx": "ledelse",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Teamleder, Projektleder, Præsentationsteknikker",
+        "sorting": 1,
+        "active": 1
+    },
+    {
+        "name": "Flere veje",
+        "header": "Flere veje",
+        "slug": "flere-veje",
+        "gfx": "flere-veje",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Dansk kursus (FVU)",
+        "sorting": 2,
+        "active": 1
+    },
+    {
+        "name": "Vejen som Arbejdsplads",
+        "header": null,
+        "slug": "vejen-som-arbejdsplads",
+        "gfx": "vejen-som-arbejdsplads",
+        "main": 1,
+        "lang": "da",
+        "teaser": "Vejen som Arbejdsplads",
+        "sorting": 11,
+        "active": 1
+    }
+]
