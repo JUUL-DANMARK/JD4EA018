@@ -2,7 +2,9 @@
     <div class="max-w-7xl mx-auto pt-12 px-4 sm:px-6 lg:pt-12 lg:px-8">
         <div class="lg:grid lg:grid-cols-3 lg:gap-12 xl:grid-cols-3 xl:gap-12">
             <div class="space-y-5 md:col-span-1 lg:border-r-2 lg:border-outer-space-800 pb-12">
-                <img width="230px" height="65px" alt="JUUL DANMARK" class="mb-5" loading="lazy" src="{{ asset('gfx/logo.svg') }}">
+                <a href="{{ url('/') }}">
+                    <img width="230px" height="65px" alt="JUUL DANMARK" class="mb-5" loading="lazy" src="{{ asset('gfx/logo.svg') }}">
+                </a>
             </div>
             <div class="col-span-2">
                 <h3 class="text-sm font-semibold text-white/90 tracking-wider uppercase">Om JUUL DANMARK</h3>

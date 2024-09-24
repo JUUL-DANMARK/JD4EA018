@@ -6,14 +6,14 @@
             <div class="mx-auto max-w-7xl lg:px-6">
                 <div class="flex h-14 sm:h-12 items-center">
                     <!-- Logo (md+) -->
-                    <div class="hidden sm:flex sm:items-center sm:flex-shrink-0">
+                    <a href="{{ url('/') }}" class="hidden sm:flex sm:items-center sm:flex-shrink-0">
                         <img class="relative top-[13px] z-10 h-[74px] w-auto" alt="JUUL DANMARK" loading="lazy" src="{{ asset('gfx/logo.svg') }}">
-                    </div>
+                    </a>
 
                     <!-- Mobile menu and logo (md-) -->
-                    <div class="flex flex-shrink-0 sm:hidden">
-                        <img class="h-14 w-14 sm:h-12 w-auto bg-stiletto-500" alt="JUUL DANMARK" loading="lazy" src="{{ asset('gfx/juul.svg') }}">
-                    </div>
+                    <a href="{{ url('/') }}" class="flex flex-shrink-0 sm:hidden">
+                        <img class="h-14 w-14 sm:h-12 bg-stiletto-500" alt="JUUL DANMARK" loading="lazy" src="{{ asset('gfx/juul.svg') }}">
+                    </a>
 
                     <div class="flex flex-grow h-full">
                         <!-- Flyout menus -->
@@ -35,9 +35,9 @@
         <div class="absolute inset-0" style="background: var(--navbar-bg); mix-blend-mode: multiply;" aria-hidden="true"></div>
     </div>
     <div class="relative">
-        <div class="hidden lg:flex mx-auto max-w-7xl flex-shrink-0 items-center px-4 sm:px-6 lg:px-8">
+        <a href="{{ url('/') }}" class="hidden lg:flex mx-auto max-w-7xl flex-shrink-0 items-center px-4 sm:px-6 lg:px-8">
             <img width="230px" height="74px" alt="JUUL DANMARK" class="block z-10 h-[74px] w-auto" src="{{ asset('gfx/logo.svg') }}">
-        </div>
+        </a>
     </div>
     <div class="relative mx-auto max-w-7xl lg:px-8">
         <nav class="hidden lg:flex lg:space-x-12 lg:mt-2 lg:mb-2 lg:text-3xl lg:tracking-tight" aria-label="Global">
@@ -47,7 +47,7 @@
 
     <div class="p-4 sm:px-6 flex flex-col justify-center mx-auto max-w-7xl min-h-44 sm:min-h-56 lg:mt-8 lg:px-8 lg:pb-10">
         <div class="relative">
-            <h1 class="text-center uppercase tracking-wide text-3xl font-black text-white sm:text-3xl lg:text-6xl">Velkommen til JUUL</h1>
+            <h1 class="text-center uppercase tracking-wide text-3xl font-black text-white sm:text-3xl lg:text-6xl">{{ $heading }}</h1>
         </div>
     </div>
 </header>
