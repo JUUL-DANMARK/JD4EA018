@@ -20,7 +20,9 @@ class CoursesSeeder extends Seeder
 
         $collection->each(function ($course) {
             Courses::insert([
+                'course_categories_id' => $course['category_id'],
                 'name' => $course['name'],
+                'title' => $course['title'],
                 'slug' => Str::slug($course['name']),
                 'description' => $course['description'],
             ]);

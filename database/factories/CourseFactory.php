@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Courses;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,7 @@ class CoursesFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'course_categories_id' => Courses::factory(),
         ];
     }
 }
