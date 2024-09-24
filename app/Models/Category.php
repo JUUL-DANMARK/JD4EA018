@@ -6,21 +6,15 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\View\View;
 
-class CourseCategories extends Model
+class Category extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = [];
-
-    public function show(string $slug): View
-    {
-        return view('category');
-    }
+    protected $fillable = ['name', 'slug', 'header', 'teaser'];
 
     public function courses(): HasMany
     {
-        return $this->hasMany(Courses::class);
+        return $this->hasMany(Course::class);
     }
 }

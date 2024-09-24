@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Courses extends Model
+class Course extends Model
 {
     use HasFactory, SoftDeletes;
 
@@ -15,6 +15,6 @@ class Courses extends Model
 
     public function category(): BelongsTo
     {
-        return $this->belongsTo(CourseCategories::class);
+        return $this->belongsTo(Category::class);
     }
 }
