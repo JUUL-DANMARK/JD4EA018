@@ -2,13 +2,13 @@
 
 namespace Database\Factories;
 
-use App\Models\Courses;
+use App\Models\Course;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Courses>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Course>
  */
-class CoursesFactory extends Factory
+class CourseFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -18,7 +18,7 @@ class CoursesFactory extends Factory
     public function definition(): array
     {
         return [
-            'course_categories_id' => Courses::factory(),
+            'category_id' => Course::factory(),
         ];
     }
 }

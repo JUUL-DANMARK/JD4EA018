@@ -1,206 +1,366 @@
 [
     {
-        "name": "Kurser for lastbilchauffører",
-        "description": "Vær med til at holde Danmark kørende. Det går stærkt i branchen, og derfor er der gode muligheder."
+        "category_id": 1,
+        "name": "Lastbil Kørekort",
+        "title": "Kurser for lastbilchauffører",
+        "description": "Vær med til at holde Danmark kørende. Det går stærkt i branchen, og derfor er der gode muligheder.",
+        "gfx": "lastbil-koerekort"
     },
     {
-        "name": "EU-bevis – Lastbil",
-        "description": "Bliv en del af transportbranchens rygrad med et EU-bevis, der giver dig de rette kvalifikationer til lastbilkørsel på højeste niveau."
+        "category_id": 3,
+        "name": "EU-bevis - Lastbil",
+        "title": "EU-bevis – Lastbil",
+        "description": "Bliv en del af transportbranchens rygrad med et EU-bevis, der giver dig de rette kvalifikationer til lastbilkørsel på højeste niveau.",
+        "gfx": "efteruddannelse-lastbil"
     },
     {
-        "name": "EU-bevis – Tankbilchauffør m. Køreteknik",
-        "description": "Specialiser dig som tankbilchauffør og få styr på køreteknikkerne, der sikrer tryg og sikker transport af farligt gods."
+        "category_id": 3,
+        "name": "EU-bevis - Tankbilchauffør m. Køreteknik",
+        "title": "EU-bevis – Tankbilchauffør m. Køreteknik",
+        "description": "Specialiser dig som tankbilchauffør og få styr på køreteknikkerne, der sikrer tryg og sikker transport af farligt gods.",
+        "gfx": "efteruddannelse-tank"
     },
     {
-        "name": "Lastbil Kvalifikationsuddannelse",
-        "description": "Udvid dine kompetencer inden for lastbiltransport med denne kvalifikationsuddannelse, der sikrer din fortsatte udvikling i branchen."
+        "category_id": 1,
+        "name": "Lastbil Kvalifikations&#173;uddannelse",
+        "title": "Lastbil Kvalifikationsuddannelse",
+        "description": "Udvid dine kompetencer inden for lastbiltransport med denne kvalifikationsuddannelse, der sikrer din fortsatte udvikling i branchen.",
+        "gfx": "lastbil-kvalifikation"
     },
     {
+        "category_id": 2,
         "name": "Buskørekort",
-        "description": "Tag det første skridt mod en karriere som buschauffør og få de nødvendige kompetencer til professionel persontransport."
+        "title": "Buskørekort",
+        "description": "Tag det første skridt mod en karriere som buschauffør og få de nødvendige kompetencer til professionel persontransport.",
+        "gfx": "bus-koerekort"
     },
     {
-        "name": "Bus Kvalifikationsuddannelse",
-        "description": "Få den nødvendige kvalifikation til at køre busser i erhvervsmæssig sammenhæng med dette certificeringskursus."
+        "category_id": 2,
+        "name": "Bus Kvalifikations&#173;uddannelse",
+        "title": "Bus Kvalifikationsuddannelse",
+        "description": "Få den nødvendige kvalifikation til at køre busser i erhvervsmæssig sammenhæng med dette certificeringskursus.",
+        "gfx": "bus-kvalifikation"
     },
     {
-        "name": "EU-bevis – OST/flex",
-        "description": "Lær at transportere passagerer i OST- og flextrafik, og få EU-certificering til denne form for transport."
+        "category_id": 3,
+        "name": "EU-bevis - OST/flex",
+        "title": "EU-bevis – OST/flex",
+        "description": "Lær at transportere passagerer i OST- og flextrafik, og få EU-certificering til denne form for transport.",
+        "gfx": "efteruddannelse-ost-flex"
     },
     {
+        "category_id": 3,
         "name": "EU-bevis – Rutebus m. Køreteknik",
-        "description": "Få styr på køreteknikkerne til professionel rutebuskørsel og bliv klar til at håndtere daglig persontransport med ro og overblik."
+        "title": "EU-bevis – Rutebus m. Køreteknik",
+        "description": "Få styr på køreteknikkerne til professionel rutebuskørsel og bliv klar til at håndtere daglig persontransport med ro og overblik.",
+        "gfx": "efteruddannelse-rutebus"
     },
     {
+        "category_id": 3,
         "name": "EU-bevis – Turistbus m. Køreteknik",
-        "description": "Specialiser dig i turistbuskørsel med fokus på sikkerhed og komfort for dine passagerer, både i by og på langfart."
+        "title": "EU-bevis – Turistbus m. Køreteknik",
+        "description": "Specialiser dig i turistbuskørsel med fokus på sikkerhed og komfort for dine passagerer, både i by og på langfart.",
+        "gfx": "efteruddannelse-turistbus"
     },
     {
-        "name": "Truckcertifikat – Gaffeltruck B",
-        "description": "Bliv kvalificeret til at betjene gaffeltruck B certifikat og håndter lagerarbejde med effektivitet og præcision."
+        "category_id": 4,
+        "name": "Gaffeltruck Certifikat B",
+        "title": "Truckcertifikat – Gaffeltruck B",
+        "description": "Bliv kvalificeret til at betjene gaffeltruck B certifikat og håndter lagerarbejde med effektivitet og præcision.",
+        "gfx": "gaffeltruck"
     },
     {
-        "name": "Varebil – Grunduddannelse",
-        "description": "Tag grunduddannelsen til at køre varebil erhvervsmæssigt og få styr på regler og sikkerhed."
+        "category_id": 5,
+        "name": "Varebil Grunduddannelse",
+        "title": "Varebil – Grunduddannelse",
+        "description": "Tag grunduddannelsen til at køre varebil erhvervsmæssigt og få styr på regler og sikkerhed.",
+        "gfx": "varebil-grunduddannelse"
     },
     {
-        "name": "Varebil – Efteruddannelse",
-        "description": "Hold dine kompetencer opdaterede med en efteruddannelse til varebilkørsel, så du altid er klar til nye udfordringer i transportbranchen."
+        "category_id": 5,
+        "name": "Varebil Efteruddannelse",
+        "title": "Varebil – Efteruddannelse",
+        "description": "Hold dine kompetencer opdaterede med en efteruddannelse til varebilkørsel, så du altid er klar til nye udfordringer i transportbranchen.",
+        "gfx": "varebil-efteruddannelse"
     },
     {
-        "name": "BAB 1-2-3A Befordring af bevægelseshæmmede",
-        "description": "Få specialviden til sikker transport af bevægelseshæmmede med denne certificering, der giver dig kompetencerne til en omsorgsfuld og tryg service."
+        "category_id": 6,
+        "name": "BAB 1-2-3A",
+        "title": "BAB 1-2-3A Befordring af bevægelseshæmmede",
+        "description": "Få specialviden til sikker transport af bevægelseshæmmede med denne certificering, der giver dig kompetencerne til en omsorgsfuld og tryg service.",
+        "gfx": "bab-1-2-3"
     },
     {
-        "name": "BAB 4 – Efteruddannelse",
-        "description": "Udbyg dine kompetencer inden for befordring af bevægelseshæmmede med en efteruddannelse, der sikrer opdateret viden og bedste praksis."
+        "category_id": 6,
+        "name": "BAB 4 Efteruddannelse",
+        "title": "BAB 4 – Efteruddannelse",
+        "description": "Udbyg dine kompetencer inden for befordring af bevægelseshæmmede med en efteruddannelse, der sikrer opdateret viden og bedste praksis.",
+        "gfx": "bab-4-efteruddannelse"
     },
     {
+        "category_id": 6,
         "name": "Evakueringsstol",
-        "description": "Bliv trænet i korrekt brug af evakueringsstole, så du er klar til en omsorgsfuld og tryg service."
+        "title": "Evakueringsstol",
+        "description": "Bliv trænet i korrekt brug af evakueringsstole, så du er klar til en omsorgsfuld og tryg service.",
+        "gfx": "evakueringsstol"
     },
     {
+        "category_id": 7,
         "name": "Taxa Kørekort",
-        "description": "Start en karriere som taxachauffør med denne certificering, der forbereder dig på professionel persontransport i bymiljøer."
+        "title": "Taxa Kørekort",
+        "description": "Start en karriere som taxachauffør med denne certificering, der forbereder dig på professionel persontransport i bymiljøer.",
+        "gfx": "taxi-koerekort"
     },
     {
+        "category_id": 8,
         "name": "Liggende Sygetransport",
-        "description": "Bliv kvalificeret til liggende sygetransport og lær de nødvendige teknikker til at sikre komfort og sikkerhed for patienter under transport."
+        "title": "Liggende Sygetransport",
+        "description": "Bliv kvalificeret til liggende sygetransport og lær de nødvendige teknikker til at sikre komfort og sikkerhed for patienter under transport.",
+        "gfx": "liggende-sygetransport"
     },
     {
+        "category_id": 9,
         "name": "ADR-grundkursus",
-        "description": "Bliv certificeret til at håndtere farligt gods med dette grundkursus, der opfylder ADR-kravene for sikker transport."
+        "title": "ADR-grundkursus",
+        "description": "Bliv certificeret til at håndtere farligt gods med dette grundkursus, der opfylder ADR-kravene for sikker transport.",
+        "gfx": "adr-grundkursus"
     },
     {
-        "name": "ADR-grund- og specialiseringskursus – Klasse 1 + Tank",
-        "description": "Opnå specialiserede kompetencer i transport af eksplosiver og tanktransport med ADR-certificering for klasse 1 og tankkørsel."
+        "category_id": 9,
+        "name": "ADR-grund- og specialiserings&#173;kursus – Klasse 1 + Tank",
+        "title": "ADR-grund- og specialiseringskursus – Klasse 1 + Tank",
+        "description": "Opnå specialiserede kompetencer i transport af eksplosiver og tanktransport med ADR-certificering for klasse 1 og tankkørsel.",
+        "gfx": "adr-grund-kl1-tank"
     },
     {
+        "category_id": 9,
         "name": "ADR Repetition – Grund + Klasse 1 + Tank",
-        "description": "Forlæng din ADR-certificering og hold dig opdateret med kravene for farligt gods, eksplosiver og tanktransport."
+        "title": "ADR Repetition – Grund + Klasse 1 + Tank",
+        "description": "Forlæng din ADR-certificering og hold dig opdateret med kravene for farligt gods, eksplosiver og tanktransport.",
+        "gfx": "adr-repetition-grund-kl1-tank"
     },
     {
-        "name": "ADR-sikkerhedsuddannelse, farligt gods – Kap. 1.3",
-        "description": "Lær sikker håndtering af farligt gods i overensstemmelse med ADR kapitel 1.3, så du kan minimere risici under transport."
+        "category_id": 9,
+        "name": "ADR-sikkerheds&#173;uddannelse, farligt gods – Kap. 1.3",
+        "title": "ADR-sikkerhedsuddannelse, farligt gods – Kap. 1.3",
+        "description": "Lær sikker håndtering af farligt gods i overensstemmelse med ADR kapitel 1.3, så du kan minimere risici under transport.",
+        "gfx": "adr-sikkerhedsuddannelse-kap-1-3"
     },
     {
-        "name": "ADR-specialiseringskursus – Klasse 1",
-        "description": "Få dybdegående kendskab til transport af eksplosivt gods med dette specialiseringskursus."
+        "category_id": 9,
+        "name": "ADR-specialiserings&#173;kursus – Klasse 1",
+        "title": "ADR-specialiseringskursus – Klasse 1",
+        "description": "Få dybdegående kendskab til transport af eksplosivt gods med dette specialiseringskursus.",
+        "gfx": "adr-specialiseringskursus-klasse-1"
     },
     {
-        "name": "Lastbil – Vogntog Uddannelse",
-        "description": "Udvid dine kompetencer til at føre vogntog og opnå vigtige færdigheder til kombineret lastbil- og anhængertransport."
+        "category_id": 10,
+        "name": "Lastbil – Vogntog Kørekort",
+        "title": "Lastbil – Vogntog Kørekort",
+        "description": "Udvid dine kompetencer til at føre vogntog og opnå vigtige færdigheder til kombineret lastbil- og anhængertransport.",
+        "gfx": "lastbil-vogntog"
     },
     {
-        "name": "Bus – Trailer (Vogntog)",
-        "description": "Bliv kvalificeret til at køre bus med tilkoblet trailer og få styr på reglerne og teknikkerne bag sikker vogntogskørsel."
+        "category_id": 10,
+        "name": "Bus – Trailer",
+        "title": "Bus – Trailer",
+        "description": "Bliv kvalificeret til at køre bus med tilkoblet trailer og få styr på reglerne og teknikkerne bag sikker vogntogskørsel.",
+        "gfx": "bus-trailer"
     },
     {
+        "category_id": 11,
         "name": "Vognmand – Varebil",
-        "description": "Bliv certificeret som vognmand til varebil og få de nødvendige værktøjer til at drive en transportvirksomhed med lette køretøjer."
+        "title": "Vognmand – Varebil",
+        "description": "Bliv certificeret som vognmand til varebil og få de nødvendige værktøjer til at drive en transportvirksomhed med lette køretøjer.",
+        "gfx": "vognmand-varebil"
     },
     {
+        "category_id": 11,
         "name": "Vognmand – Lastbil",
-        "description": "Få kompetencerne til at drive en lastbilvognmandsforretning med fokus på ledelse, logistik og lovgivning."
+        "title": "Vognmand – Lastbil",
+        "description": "Få kompetencerne til at drive en lastbilvognmandsforretning med fokus på ledelse, logistik og lovgivning.",
+        "gfx": "vognmand-lastbil"
     },
     {
+        "category_id": 11,
         "name": "Vognmand – Bus",
-        "description": "Bliv vognmand inden for buskørsel og få indsigt i, hvordan du driver en professionel persontransportforretning."
+        "title": "Vognmand – Bus",
+        "description": "Bliv vognmand inden for buskørsel og få indsigt i, hvordan du driver en professionel persontransportforretning.",
+        "gfx": "vognmand-bus"
     },
     {
+        "category_id": 8,
         "name": "Autohjælp – Grunduddannelse",
-        "description": "Bliv kvalificeret til at yde autohjælp og få de nødvendige færdigheder til at udføre sikker vejhjælp."
+        "title": "Autohjælp – Grunduddannelse",
+        "description": "Bliv kvalificeret til at yde autohjælp og få de nødvendige færdigheder til at udføre sikker vejhjælp.",
+        "gfx": "autohjaelp"
     },
     {
+        "category_id": 8,
         "name": "Vejen som Arbejdsplads – Autohjælp",
-        "description": "Lær at sikre din egen og andres sikkerhed, mens du yder autohjælp på offentlige veje."
+        "title": "Vejen som Arbejdsplads – Autohjælp",
+        "description": "Lær at sikre din egen og andres sikkerhed, mens du yder autohjælp på offentlige veje.",
+        "gfx": "vejen-som-arbejdsplads-autohjaelp"
     },
     {
+        "category_id": 14,
         "name": "Køreteknik",
-        "description": "Få opdateret køreteknik og lær at håndtere køretøjer sikkert under udfordrende forhold."
+        "title": "Køreteknik Lastbil",
+        "description": "Få opdateret køreteknik og lær at håndtere køretøjer sikkert under udfordrende forhold.",
+        "gfx": "koereteknik-lastbil"
     },
     {
-        "name": "Trailerkørsel til Personbil",
-        "description": "Bliv kvalificeret til at føre bil med trailer og få styr på reglerne for sikker kørsel med anhænger."
+        "category_id": 14,
+        "name": "Trailerkørekort B/E",
+        "title": "Trailerkørsel til Personbil",
+        "description": "Bliv kvalificeret til at føre bil med trailer og få styr på reglerne for sikker kørsel med anhænger.",
+        "gfx": "trailerkoerekort-be"
     },
     {
+        "category_id": 13,
         "name": "Kørelærer Uddannelse",
-        "description": "Bliv certificeret kørelærer og lær at uddanne nye trafikanter med pædagogiske og tekniske kompetencer."
+        "title": "Kørelærer Uddannelse",
+        "description": "Bliv certificeret kørelærer og lær at uddanne nye trafikanter med pædagogiske og tekniske kompetencer.",
+        "gfx": "koerelaerer"
     },
     {
+        "category_id": 13,
         "name": "Kørelærer Efteruddannelse",
-        "description": "Hold din kørelærerlicens opdateret med den nyeste viden om færdselsregler og undervisningsmetoder."
+        "title": "Kørelærer Efteruddannelse",
+        "description": "Hold din kørelærerlicens opdateret med den nyeste viden om færdselsregler og undervisningsmetoder.",
+        "gfx": "koerelaerer-efteruddannelse"
     },
     {
+        "category_id": 12,
         "name": "Dronecertifikat A1/A3",
-        "description": "Bliv certificeret til at flyve droner i kategori A1/A3 og lær reglerne for ansvarlig og sikker droneflyvning."
+        "title": "Dronecertifikat A1/A3",
+        "description": "Bliv certificeret til at flyve droner i kategori A1/A3 og lær reglerne for ansvarlig og sikker droneflyvning.",
+        "gfx": "dronecertifikat-a1-a3"
     },
     {
+        "category_id": 12,
         "name": "Dronecertifikat A2",
-        "description": "Få specialiseret certificering til at flyve droner i kategori A2 og opnå adgang til mere avancerede droneoperationer."
+        "title": "Dronecertifikat A2",
+        "description": "Få specialiseret certificering til at flyve droner i kategori A2 og opnå adgang til mere avancerede droneoperationer.",
+        "gfx": "dronecertifikat-a2"
     },
     {
+        "category_id": 3,
         "name": "EU-bevis – Autohjælp inkl. VSA1",
-        "description": "Bliv certificeret til autohjælp med fokus på sikkerhed og kvalificeret transport af køretøjer."
+        "title": "EU-bevis – Autohjælp inkl. VSA1",
+        "description": "Bliv certificeret til autohjælp med fokus på sikkerhed og kvalificeret transport af køretøjer.",
+        "gfx": "efteruddannelse-autohjaelp"
     },
     {
-        "name": "Kørsel med sættevogn",
-        "description": "Lær at føre sættevogn med sikkerhed og effektivitet og opnå den nødvendige viden til at håndtere store vogntog."
+        "category_id": 10,
+        "name": "Sættevogn",
+        "title": "Kørsel med sættevogn",
+        "description": "Lær at føre sættevogn med sikkerhed og effektivitet og opnå den nødvendige viden til at håndtere store vogntog.",
+        "gfx": "lastbil-saettevogn"
     },
     {
-        "name": "BAB 1+2 Befordring af sygdoms- og alderssvækkede",
-        "description": "Opnå viden om sikker og hensynsfuld transport af sygdoms- og alderssvækkede passagerer."
+        "category_id": 6,
+        "name": "BAB 1+2",
+        "title": "BAB 1+2 Befordring af sygdoms- og alderssvækkede",
+        "description": "Opnå viden om sikker og hensynsfuld transport af sygdoms- og alderssvækkede passagerer.",
+        "gfx": "bab-1-2"
     },
     {
+        "category_id": 2,
         "name": "Trafikselskabet, Kundeservice og Billettering",
-        "description": "Få kompetencer inden for kundeservice og billettering i trafikselskaber, og lær at håndtere passagerer professionelt."
+        "title": "Trafikselskabet, Kundeservice og Billettering",
+        "description": "Få kompetencer inden for kundeservice og billettering i trafikselskaber, og lær at håndtere passagerer professionelt.",
+        "gfx": "kundeservice-billettering"
     },
     {
+        "category_id": 14,
         "name": "Vejen som Arbejdsplads – Certifikat",
-        "description": "Bliv certificeret til at arbejde sikkert på veje og lær at anvende de nødvendige sikkerhedsforanstaltninger."
+        "title": "Vejen som Arbejdsplads – Certifikat",
+        "description": "Bliv certificeret til at arbejde sikkert på veje og lær at anvende de nødvendige sikkerhedsforanstaltninger.",
+        "gfx": "vejen-som-arbejdsplads"
     },
     {
+        "category_id": 11,
         "name": "Vognmand – Flextrafik",
-        "description": "Bliv vognmand inden for flextrafik og lær, hvordan du kan tilbyde fleksible transportløsninger til særlige behov."
+        "title": "Vognmand – Flextrafik",
+        "description": "Bliv vognmand inden for flextrafik og lær, hvordan du kan tilbyde fleksible transportløsninger til særlige behov.",
+        "gfx": "vognmand-flextrafik"
     },
     {
+        "category_id": 2,
         "name": "El-bus",
-        "description": "Bliv kvalificeret til at føre el-bus og få indsigt i de særlige tekniske og miljømæssige forhold forbundet med el-busser."
+        "title": "El-bus",
+        "description": "Bliv kvalificeret til at føre el-bus og få indsigt i de særlige tekniske og miljømæssige forhold forbundet med el-busser.",
+        "gfx": "el-bus"
     },
     {
-        "name": "Truckcertifikat – Online Teori",
-        "description": "Tag truckcertifikatets teoridel online og opnå viden om sikker og effektiv kørsel med gaffeltruck."
+        "category_id": 4,
+        "name": "Gaffeltruck Certifikat B – Online Teori",
+        "title": "Truckcertifikat – Online Teori",
+        "description": "Tag truckcertifikatets teoridel online og opnå viden om sikker og effektiv kørsel med gaffeltruck.",
+        "gfx": "gaffeltruck-online-teori"
     },
     {
+        "category_id": 5,
         "name": "International Varebilstilladelse",
-        "description": "Bliv certificeret til international transport med varebil og opnå viden om regler og logistik på tværs af landegrænser."
+        "title": "International Varebilstilladelse",
+        "description": "Bliv certificeret til international transport med varebil og opnå viden om regler og logistik på tværs af landegrænser.",
+        "gfx": "international-varebilstilladelse"
     },
     {
-        "name": "Teamlederuddannelse",
-        "description": "Bliv uddannet teamleder og få de nødvendige ledelsesværktøjer til at styre og motivere teams i transportsektoren."
+        "category_id": 15,
+        "name": "Teamleder&#173;uddannelse",
+        "title": "Teamlederuddannelse",
+        "description": "Bliv uddannet teamleder og få de nødvendige ledelsesværktøjer til at styre og motivere teams i transportsektoren.",
+        "gfx": "teamlederuddannelse"
     },
     {
-        "name": "Teamlederuddannelse Online",
-        "description": "Tag teamlederuddannelsen online og lær ledelseskompetencer i dit eget tempo, hvor som helst."
+        "category_id": 15,
+        "name": "Teamleder&#173;uddannelse Online",
+        "title": "Teamlederuddannelse Online",
+        "description": "Tag teamlederuddannelsen online og lær ledelseskompetencer i dit eget tempo, hvor som helst.",
+        "gfx": "teamlederuddannelse-online"
     },
     {
+        "category_id": 6,
         "name": "BAB 3B",
-        "description": "Opnå specialkompetencer til sikker transport af passagerer med særlige behov, herunder personer med bevægelseshandicap."
+        "title": "BAB 3B",
+        "description": "Opnå specialkompetencer til sikker transport af passagerer med særlige behov, herunder personer med bevægelseshandicap.",
+        "gfx": "bab-3b"
     },
     {
-        "name": "Projektlederuddannelse",
-        "description": "Bliv uddannet projektleder og få styr på projektledelse, tidsstyring og ressourceoptimering inden for transportsektoren."
+        "category_id": 15,
+        "name": "Projektleder&#173;uddannelse",
+        "title": "Projektlederuddannelse",
+        "description": "Bliv uddannet projektleder og få styr på projektledelse, tidsstyring og ressourceoptimering inden for transportsektoren.",
+        "gfx": "projektlederuddannelse"
     },
     {
+        "category_id": 15,
         "name": "Præsentationsteknikker",
-        "description": "Lær effektive præsentationsteknikker og forbedr dine kommunikative evner til møder og undervisningssituationer."
+        "title": "Præsentationsteknikker",
+        "description": "Lær effektive præsentationsteknikker og forbedr dine kommunikative evner til møder og undervisningssituationer.",
+        "gfx": "praesentationsteknikker"
     },
     {
+        "category_id": 6,
+        "name": "BAB 3A",
+        "title": "BAB 3A – Befordring af bevægelseshæmmede",
+        "description": "Bliv kvalificeret til sikker transport af bevægelseshæmmede passagerer. Få viden om hjælpemidler og korrekt fastgørelse, så du kan gøre en forskel.",
+        "gfx": "bab-3a"
+    },
+    {
+        "category_id": 8,
         "name": "Nødbehandler",
-        "description": "Bliv kvalificeret nødbehandler og lær at håndtere akutte situationer med førstehjælp og livreddende teknikker."
+        "title": "Nødbehandler",
+        "description": "Bliv kvalificeret nødbehandler og lær at håndtere akutte situationer med førstehjælp og livreddende teknikker.",
+        "gfx": "noedbehandler"
     },
     {
-        "name": "ADR-sikkerhedsuddannelse, farligt gods – Kap. 1.3 – Online",
-        "description": "Tag onlinekurset i ADR-sikkerhedsuddannelse og lær at håndtere farligt gods sikkert, baseret på kapitel 1.3 af ADR-reglerne."
+        "category_id": 9,
+        "name": "ADR-sikkerheds&#173;uddannelse – Kap. 1.3 – Online",
+        "title": "ADR-sikkerhedsuddannelse, farligt gods – Kap. 1.3 – Online",
+        "description": "Tag onlinekurset i ADR-sikkerhedsuddannelse og lær at håndtere farligt gods sikkert, baseret på kapitel 1.3 af ADR-reglerne.",
+        "gfx": "adr-sikkerhedsuddannelse-kap-1-3-online"
     }
 ]
