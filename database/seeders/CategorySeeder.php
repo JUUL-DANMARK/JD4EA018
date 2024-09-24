@@ -2,13 +2,13 @@
 
 namespace Database\Seeders;
 
-use App\Models\CourseCategories;
+use App\Models\Category;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
-class CourseCategoriesSeeder extends Seeder
+class CategorySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -19,7 +19,7 @@ class CourseCategoriesSeeder extends Seeder
         $collection = collect(json_decode($json, true));
 
         $collection->each(function ($category) {
-            CourseCategories::insert([
+            Category::insert([
                 'name' => $category['name'],
                 'slug' => Str::slug($category['slug']),
                 'header' => $category['header'],
