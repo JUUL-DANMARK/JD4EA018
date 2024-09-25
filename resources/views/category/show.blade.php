@@ -25,7 +25,9 @@
                                     <h2 class="text-base leading-6 text-gray-900 font-bold uppercase sm:text-lg sm:mb-2">{!! $course->name !!}</h2>
                                 </div>
                                 <div class="flex-shrink">
-                                    <p class="text-gray-500 group-hover:text-gray-900">{{ $course->days ?? 0 }} dage</p>
+                                    <p class="text-gray-500 group-hover:text-gray-900">
+                                        {{ (intval($course->days) ? $course->days . ' dage' : 'Online') }}
+                                    </p>
                                 </div>
                                 <div class="mt-2 sm:mt-3 py-0.5 px-8 rounded-md text-sm text-white bg-rhino-500 focus:outline-none focus:ring focus:ring-rhino-500/50 group-focus:outline-none group-focus:ring group-focus:ring-3 group-focus:ring-rhino-500/50 group-hover:shadow group-hover:bg-rhino-600 motion-reduce:transition-colors duration-100 ease-in-out">
                                     Læs mere
