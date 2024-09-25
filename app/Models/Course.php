@@ -11,7 +11,7 @@ class Course extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['name', 'slug', 'title', 'description'];
+    protected $fillable = ['name', 'slug', 'title', 'description', 'days'];
 
     public function category(): BelongsTo
     {

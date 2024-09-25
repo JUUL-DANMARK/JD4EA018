@@ -26,6 +26,7 @@ class CourseSeeder extends Seeder
                 'slug' => Str::slug($course['name']),
                 'description' => $course['description'],
                 'gfx' => $course['gfx'],
+                'days' => $course['days'],
             ]);
         });
     }

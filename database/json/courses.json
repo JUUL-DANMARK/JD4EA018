@@ -178,7 +178,7 @@
     {
         "category_id": 10,
         "name": "Lastbil – Vogntog Kørekort",
-        "title": "Lastbil – Vogntog Kørekort",
+        "title": "Hængerkort",
         "description": "Udvid dine kompetencer til at føre vogntog og opnå vigtige færdigheder til kombineret lastbil- og anhængertransport.",
         "gfx": "lastbil-vogntog",
         "days": "20"
@@ -396,14 +396,16 @@
         "name": "BAB 3A",
         "title": "BAB 3A – Befordring af bevægelseshæmmede",
         "description": "Bliv kvalificeret til sikker transport af bevægelseshæmmede passagerer. Få viden om hjælpemidler og korrekt fastgørelse, så du kan gøre en forskel.",
-        "gfx": "bab-3a"
+        "gfx": "bab-3a",
+        "days": "2"
     },
     {
         "category_id": 16,
         "name": "Danskkursus",
         "title": "Sprogkurser for alle niveauer",
         "description": "Forbedr dine danskkundskaber og styrk dine kommunikative evner. Uanset om du er nybegynder eller ønsker at finpudse dine færdigheder, er der et kursus for dig.",
-        "gfx": "danskkursus"
+        "gfx": "danskkursus",
+        "days": null
     },
     {
         "category_id": 8,
@@ -452,5 +454,21 @@
         "description": "Få de nødvendige værktøjer til at navigere og løse konflikter på arbejdspladsen eller i hverdagen. Med fokus på kommunikation og forståelse lærer du at omdanne konflikter til produktive løsninger.",
         "gfx": null,
         "days": 3
+    },
+    {
+        "category_id": 18,
+        "name": "Kran",
+        "title": "Lastbil med kran",
+        "description": "Lær at håndtere lastbiler med kran og øg dine muligheder inden for transport- og byggebranchen. Få praktisk erfaring og vigtige færdigheder til sikkert at betjene kraner i forbindelse med lastbiltransport.",
+        "gfx": null,
+        "days": null
+    },
+    {
+        "category_id": 19,
+        "name": "Arbejdsmiljøuddannelse - Online",
+        "title": "Den obligatoriske arbejdsmiljøuddannelse",
+        "description": "Få styr på arbejdsmiljøreglerne og bliv klædt på til at sikre en sund og sikker arbejdsplads. Uddannelsen er fleksibel og online, så du kan tage den i dit eget tempo og opfylde de lovpligtige krav.",
+        "gfx": null,
+        "days": "Online"
     }
 ]
