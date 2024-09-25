@@ -117,7 +117,7 @@
         "main": 1,
         "lang": "da",
         "teaser": "Gods, Bus, Varebil, Flex, Vognmands&#173;uddannelse",
-        "sorting": 13,
+        "sorting": 16,
         "active": 1
     },
     {
@@ -128,7 +128,7 @@
         "main": 1,
         "lang": "da",
         "teaser": "Dronecertifikat A1/A3, Dronecertifikat A2, Dronecertifikat A1/A2/A3",
-        "sorting": 14,
+        "sorting": 17,
         "active": 1
     },
     {
@@ -139,7 +139,7 @@
         "main": 1,
         "lang": "da",
         "teaser": "Kørelærer&#173;uddannelse, Efteruddannelse",
-        "sorting": 15,
+        "sorting": 17,
         "active": 1
     },
     {
@@ -150,7 +150,7 @@
         "main": 1,
         "lang": "da",
         "teaser": "Køreteknik, Trailerkørekort m.fl.",
-        "sorting": 16,
+        "sorting": 18,
         "active": 1
     },
     {
@@ -165,13 +165,13 @@
         "active": 1
     },
     {
-        "name": "Flere veje",
-        "header": "Flere veje",
-        "slug": "flere-veje",
-        "gfx": "flere-veje",
+        "name": "Almene fag",
+        "header": "Dansk og Matematik",
+        "slug": "almene-fag",
+        "gfx": "almene-fag",
         "main": 1,
         "lang": "da",
-        "teaser": "Danskkursus",
+        "teaser": "Dansk, Matematik",
         "sorting": 2,
         "active": 1
     },
@@ -183,7 +183,29 @@
         "main": 1,
         "lang": "da",
         "teaser": "Vejen som Arbejdsplads",
-        "sorting": 11,
+        "sorting": 13,
+        "active": 1
+    },
+    {
+        "name": "Kran",
+        "header": "Kran",
+        "slug": "kran",
+        "gfx": null,
+        "main": 1,
+        "lang": "da",
+        "teaser": "Lastbil med kran",
+        "sorting": 14,
+        "active": 1
+    },
+    {
+        "name": "Arbejdsmiljøuddannelse",
+        "header": "Arbejdsmiljøuddannelse",
+        "slug": "arbejdsmiljoeuddannelse",
+        "gfx": null,
+        "main": 1,
+        "lang": "da",
+        "teaser": "Arbejdsmiljø uddannelse - Online",
+        "sorting": 15,
         "active": 1
     }
 ]

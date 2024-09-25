@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        'categories' => Category::all(),
+        'categories' => Category::all()->sortBy('sorting'),
     ]);
 });
 
