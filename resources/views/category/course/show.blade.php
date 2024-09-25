@@ -1,6 +1,6 @@
 <x-layout>
     <x-header>
-        <x-slot:heading>{{ $course->name }}</x-slot:heading>
+        <x-slot:heading>{!! $course->name !!}</x-slot:heading>
     </x-header>
 
     <main class="relative bg-gray-100">
