@@ -21,7 +21,7 @@
                                 <h2 class="leading-6 font-bold text-gray-900 uppercase sm:text-lg sm:mb-2">{{ $category->name }}</h2>
                                 <p class="text-gray-700 group-hover:text-black">{{ $category->teaser }}</p>
                             </div>
-                            <button type="button" class="mt-2 sm:mt-3 py-0.5 px-10 rounded-md text-sm text-white bg-lime-500 focus:outline-none focus:ring focus:ring-lime-500/50 group-focus:outline-none group-focus:ring group-focus:ring-3 group-focus:ring-lime-500/50 group-hover:shadow group-hover:bg-lime-700 motion-reduce:transition-colors duration-100 ease-in-out">
+                            <button type="button" class="mt-2 sm:mt-3 py-0.5 px-10 rounded-md text-sm text-white bg-rhino-500 focus:outline-none focus:ring focus:ring-blue-500/50 group-focus:outline-none group-focus:ring group-focus:ring-3 group-focus:ring-rhino-500/50 group-hover:shadow group-hover:bg-rhino-700 motion-reduce:transition-colors duration-100 ease-in-out">
                                 Læs mere
                             </button>
                         </a>

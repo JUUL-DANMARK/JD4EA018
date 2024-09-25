@@ -27,7 +27,7 @@
                                 <div class="flex-shrink">
                                     <p class="text-gray-500 group-hover:text-gray-900">{{ $course->days ?? 0 }} dage</p>
                                 </div>
-                                <div class="mt-2 sm:mt-3 py-0.5 px-8 rounded-md text-sm text-white bg-lime-500 focus:outline-none focus:ring focus:ring-lime-500/50 group-focus:outline-none group-focus:ring group-focus:ring-3 group-focus:ring-lime-500/50 group-hover:shadow group-hover:bg-lime-600 motion-reduce:transition-colors duration-100 ease-in-out">
+                                <div class="mt-2 sm:mt-3 py-0.5 px-8 rounded-md text-sm text-white bg-rhino-500 focus:outline-none focus:ring focus:ring-rhino-500/50 group-focus:outline-none group-focus:ring group-focus:ring-3 group-focus:ring-rhino-500/50 group-hover:shadow group-hover:bg-rhino-600 motion-reduce:transition-colors duration-100 ease-in-out">
                                     Læs mere
                                 </div>
                             </a>
