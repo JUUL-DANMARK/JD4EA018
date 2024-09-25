@@ -14,8 +14,17 @@
                             tabindex="-1"
                         >
                             <picture class="flex justify-center rounded-full bg-gradient-to-b from-white group-hover:shadow group-hover:bg-white group-hover:active:shadow-lg motion-reduce:transition-colors active:transition-shadow duration-100 ease-in-out">
+                                @if($category->gfx)
                                 <source srcset="{{ asset('gfx/home/' . $category->gfx . '.webp') }}" type="image/webp">
-                                <img class="w-auto max-h-[168px] sm:max-h-none sm:w-[168px] object-contain" alt="{{ $category->name }}" loading="lazy" width="100%" height="100%" src="{{ asset('gfx/home/' . $category->gfx . '.png') }}">
+                                @endif
+                                <img
+                                    class="w-auto max-h-[168px] sm:max-h-none sm:w-[168px] object-contain"
+                                    alt="{{ $category->name }}"
+                                    loading="lazy"
+                                    width="100%"
+                                    height="100%"
+                                    src="{{ asset('gfx/home/' . ($category->gfx ?? '../2') . '.png') }}"
+                                >
                             </picture>
                             <div class="flex-grow mt-2">
                                 <h2 class="leading-6 font-bold text-gray-900 uppercase sm:text-lg sm:mb-2">{{ $category->name }}</h2>

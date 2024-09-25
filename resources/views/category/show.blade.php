@@ -11,14 +11,16 @@
                         <li class="flex flex-col items-center">
                             <a href="{{ url(request()->segment(1) . "/$course->slug") }}" class="flex flex-col items-center h-full group" tabindex="-1">
                                 <picture class="relative flex justify-center motion-reduce:transition-colors active:transition-shadow duration-100 ease-in-out">
+                                    @if($category->gfx)
                                     <source srcset="{{ asset('gfx/course/' . $course->gfx . '.webp') }}" type="image/webp">
+                                    @endif
                                     <img
                                         class="w-auto max-h-[168px] sm:max-h-none sm:w-[168px] object-contain"
                                         alt="{{ $course->name }}"
                                         loading="lazy"
                                         width="100%"
                                         height="100%"
-                                        src="{{ asset('gfx/course/' . $course->gfx . '.png') }}"
+                                        src="{{ asset('gfx/course/' . ($course->gfx ?? '../3') . '.png') }}"
                                     >
                                 </picture>
                                 <div class="flex-grow mt-2">
